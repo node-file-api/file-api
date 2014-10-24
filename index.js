@@ -7,9 +7,9 @@
   var FileApi = module.exports = {
         File: require('File')
       , FileList: require('FileList')
-    //, FileError: require('FileError')
+    //, FileError: require('file-error')
       , FileReader: require('filereader')
-      , FormData: require('FormData')
+      , FormData: require('formdata')
   };
 
   FileApi.isFile = function (obj) {
