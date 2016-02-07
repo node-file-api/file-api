@@ -140,7 +140,7 @@ and hence do not expect or accept `Transfer-Encoding: chunked` from clients.
     });
 
     // `onloadend` as property
-    fileReader.onloadend', function () {
+    fileReader.on('loadend', function () {
       console.log("Success");
     });
 
